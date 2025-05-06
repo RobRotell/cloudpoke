@@ -1,0 +1,10 @@
+{
+	// "prettier.configPath": "./.prettierrc",
+	"eslint.format.enable": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "always"
+	},
+	"eslint.validate": ["javascript"],
+	"editor.fontFamily": "Cascadia Code",
+	"editor.formatOnSave": false
+}

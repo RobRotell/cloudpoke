@@ -1,0 +1,18 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Entry {
+  id         Int      @id @default(autoincrement())
+  date       DateTime
+  hash       String
+  prompt     String
+  imageStyle String?
+  views      Int
+}

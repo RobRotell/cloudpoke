@@ -1,0 +1,30 @@
+{
+	"name": "cloudpoke",
+	"version": "0.0.2",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/RobRotell/cloudpoke"
+	},
+	"author": "Rob Rotell",
+	"license": "UNLICENSED",
+	"bugs": {
+		"url": "https://github.com/RobRotell/cloudpoke/issues"
+	},
+	"homepage": "https://muses.robr.app",
+	"type": "module",
+	"scripts": {
+	},
+	"dependencies": {
+		"@prisma/adapter-d1": "^6.5.0",
+		"@prisma/client": "^6.5.0",
+		"hono": "^4.7.4",
+		"zod": "^3.24.3"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.22.0",
+		"@types/node": "^22.13.10",
+		"eslint": "^9.22.0",
+		"eslint-plugin-import": "^2.31.0"
+	},
+	"packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
